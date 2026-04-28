@@ -1,0 +1,113 @@
+Jan 28 08:00:01 server sshd[1001]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan 28 08:05:12 server sshd[1002]: Failed password for invaliduser admin from 192.168.1.50 port 34210 ssh2
+Jan 28 08:05:14 server sshd[1002]: Failed password for invaliduser guest from 192.168.1.50 port 34212 ssh2
+Jan 28 08:05:16 server sshd[1002]: Failed password for root from 192.168.1.50 port 34214 ssh2
+Jan 28 08:05:18 server sshd[1002]: Failed password for root from 192.168.1.50 port 34216 ssh2
+Jan 28 08:05:20 server sshd[1002]: Failed password for root from 192.168.1.50 port 34218 ssh2
+Jan 28 08:10:05 server sshd[1003]: Accepted password for user_jane from 10.0.0.15 port 52100 ssh2
+Jan 28 08:10:06 server sshd[1003]: pam_unix(sshd:session): session opened for user user_jane by (uid=1001)
+Jan 28 08:12:33 server sshd[1004]: Failed password for user_bob from 10.0.0.22 port 49120 ssh2
+Jan 28 08:12:38 server sshd[1004]: Accepted password for user_bob from 10.0.0.22 port 49120 ssh2
+Jan 28 08:12:39 server sshd[1004]: pam_unix(sshd:session): session opened for user user_bob by (uid=1002)
+Jan 28 08:15:44 server sshd[1005]: Failed password for root from 45.12.33.101 port 11211 ssh2
+Jan 28 08:15:46 server sshd[1005]: Failed password for root from 45.12.33.101 port 11213 ssh2
+Jan 28 08:15:48 server sshd[1005]: Failed password for root from 45.12.33.101 port 11215 ssh2
+Jan 28 08:15:50 server sshd[1005]: Failed password for root from 45.12.33.101 port 11217 ssh2
+Jan 28 08:15:52 server sshd[1005]: Failed password for root from 45.12.33.101 port 11219 ssh2
+Jan 28 08:15:54 server sshd[1005]: Failed password for root from 45.12.33.101 port 11221 ssh2
+Jan 28 08:15:56 server sshd[1005]: Failed password for root from 45.12.33.101 port 11223 ssh2
+Jan 28 08:15:58 server sshd[1005]: Failed password for root from 45.12.33.101 port 11225 ssh2
+Jan 28 08:16:00 server sshd[1005]: Failed password for root from 45.12.33.101 port 11227 ssh2
+Jan 28 08:16:02 server sshd[1005]: Failed password for root from 45.12.33.101 port 11229 ssh2
+Jan 28 08:20:00 server sshd[1006]: pam_unix(sshd:session): session closed for user user_jane
+Jan 28 08:25:12 server sshd[1007]: Failed password for root from 192.168.1.50 port 34310 ssh2
+Jan 28 08:25:14 server sshd[1007]: Failed password for root from 192.168.1.50 port 34312 ssh2
+Jan 28 08:25:16 server sshd[1007]: Failed password for root from 192.168.1.50 port 34314 ssh2
+Jan 28 08:30:45 server sshd[1008]: Accepted password for admin_tim from 172.16.50.5 port 22 ssh2
+Jan 28 08:35:10 server sshd[1009]: Failed password for postgres from 185.22.1.44 port 41200 ssh2
+Jan 28 08:35:12 server sshd[1009]: Failed password for mysql from 185.22.1.44 port 41202 ssh2
+Jan 28 08:35:15 server sshd[1009]: Failed password for oracle from 185.22.1.44 port 41204 ssh2
+Jan 28 08:40:01 server CRON[1010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 08:40:02 server CRON[1010]: pam_unix(cron:session): session closed for user root
+Jan 28 08:45:10 server sshd[1011]: Failed password for root from 192.168.1.50 port 34410 ssh2
+Jan 28 08:45:12 server sshd[1011]: Failed password for root from 192.168.1.50 port 34412 ssh2
+Jan 28 08:50:22 server sshd[1012]: Failed password for webmaster from 203.0.113.5 port 55123 ssh2
+Jan 28 08:50:24 server sshd[1012]: Accepted password for webmaster from 203.0.113.5 port 55123 ssh2
+Jan 28 08:55:00 server sshd[1013]: Failed password for root from 45.12.33.101 port 11311 ssh2
+Jan 28 08:55:02 server sshd[1013]: Failed password for root from 45.12.33.101 port 11313 ssh2
+Jan 28 08:55:04 server sshd[1013]: Failed password for root from 45.12.33.101 port 11315 ssh2
+Jan 28 08:55:06 server sshd[1013]: Failed password for root from 45.12.33.101 port 11317 ssh2
+Jan 28 08:55:08 server sshd[1013]: Failed password for root from 45.12.33.101 port 11319 ssh2
+Jan 28 09:00:10 server sshd[1014]: Accepted password for user_jane from 10.0.0.15 port 52105 ssh2
+Jan 28 09:05:44 server sshd[1015]: Failed password for root from 192.168.1.50 port 34510 ssh2
+Jan 28 09:05:46 server sshd[1015]: Failed password for root from 192.168.1.50 port 34512 ssh2
+Jan 28 09:10:01 server CRON[1016]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 09:10:02 server CRON[1016]: pam_unix(cron:session): session closed for user root
+Jan 28 09:15:30 server sshd[1017]: Failed password for info from 8.8.8.8 port 1234 ssh2
+Jan 28 09:15:32 server sshd[1017]: Failed password for support from 8.8.8.8 port 1235 ssh2
+Jan 28 09:20:12 server sshd[1018]: Accepted password for backup_user from 10.0.0.100 port 22 ssh2
+Jan 28 09:25:00 server sshd[1019]: Failed password for root from 45.12.33.101 port 11411 ssh2
+Jan 28 09:25:02 server sshd[1019]: Failed password for root from 45.12.33.101 port 11413 ssh2
+Jan 28 09:25:04 server sshd[1019]: Failed password for root from 45.12.33.101 port 11415 ssh2
+Jan 28 09:25:06 server sshd[1019]: Failed password for root from 45.12.33.101 port 11417 ssh2
+Jan 28 09:30:00 server sshd[1020]: pam_unix(sshd:session): session closed for user user_bob
+Jan 28 09:35:12 server sshd[1021]: Failed password for root from 192.168.1.50 port 34610 ssh2
+Jan 28 09:35:14 server sshd[1021]: Failed password for root from 192.168.1.50 port 34612 ssh2
+Jan 28 09:40:01 server CRON[1022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 09:45:10 server sshd[1023]: Failed password for root from 192.168.1.50 port 34710 ssh2
+Jan 28 09:45:12 server sshd[1023]: Failed password for root from 192.168.1.50 port 34712 ssh2
+Jan 28 09:50:33 server sshd[1024]: Failed password for dev from 1.2.3.4 port 9999 ssh2
+Jan 28 09:50:35 server sshd[1024]: Failed password for dev from 1.2.3.4 port 10000 ssh2
+Jan 28 09:50:37 server sshd[1024]: Accepted password for dev from 1.2.3.4 port 10001 ssh2
+Jan 28 10:00:10 server sshd[1025]: Failed password for root from 45.12.33.101 port 11511 ssh2
+Jan 28 10:00:12 server sshd[1025]: Failed password for root from 45.12.33.101 port 11513 ssh2
+Jan 28 10:05:00 server sshd[1026]: Failed password for root from 192.168.1.50 port 34810 ssh2
+Jan 28 10:10:01 server CRON[1027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 10:10:02 server CRON[1027]: pam_unix(cron:session): session closed for user root
+Jan 28 10:15:22 server sshd[1028]: Failed password for root from 45.12.33.101 port 11611 ssh2
+Jan 28 10:15:24 server sshd[1028]: Failed password for root from 45.12.33.101 port 11613 ssh2
+Jan 28 10:20:10 server sshd[1029]: Accepted password for user_jane from 10.0.0.15 port 52110 ssh2
+Jan 28 10:25:12 server sshd[1030]: Failed password for root from 192.168.1.50 port 34910 ssh2
+Jan 28 10:25:14 server sshd[1030]: Failed password for root from 192.168.1.50 port 34912 ssh2
+Jan 28 10:30:00 server sshd[1031]: Failed password for root from 45.12.33.101 port 11711 ssh2
+Jan 28 10:35:10 server sshd[1032]: Failed password for root from 192.168.1.50 port 35010 ssh2
+Jan 28 10:35:12 server sshd[1032]: Failed password for root from 192.168.1.50 port 35012 ssh2
+Jan 28 10:40:01 server CRON[1033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 10:45:10 server sshd[1034]: Failed password for root from 45.12.33.101 port 11811 ssh2
+Jan 28 10:50:22 server sshd[1035]: Accepted password for user_bob from 10.0.0.22 port 49125 ssh2
+Jan 28 11:00:10 server sshd[1036]: Failed password for root from 192.168.1.50 port 35110 ssh2
+Jan 28 11:00:12 server sshd[1036]: Failed password for root from 192.168.1.50 port 35112 ssh2
+Jan 28 11:05:00 server sshd[1037]: Failed password for root from 45.12.33.101 port 11911 ssh2
+Jan 28 11:10:01 server CRON[1038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 11:15:22 server sshd[1039]: Failed password for root from 192.168.1.50 port 35210 ssh2
+Jan 28 11:15:24 server sshd[1039]: Failed password for root from 192.168.1.50 port 35212 ssh2
+Jan 28 11:20:10 server sshd[1040]: Accepted password for admin_tim from 172.16.50.5 port 22 ssh2
+Jan 28 11:25:12 server sshd[1041]: Failed password for root from 45.12.33.101 port 12011 ssh2
+Jan 28 11:30:00 server sshd[1042]: Failed password for root from 192.168.1.50 port 35310 ssh2
+Jan 28 11:35:10 server sshd[1043]: Failed password for root from 45.12.33.101 port 12111 ssh2
+Jan 28 11:40:01 server CRON[1044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 11:45:10 server sshd[1045]: Failed password for root from 192.168.1.50 port 35410 ssh2
+Jan 28 11:50:22 server sshd[1046]: Accepted password for webmaster from 203.0.113.5 port 55130 ssh2
+Jan 28 12:00:01 server CRON[1047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 12:05:12 server sshd[1048]: Failed password for root from 192.168.1.50 port 35510 ssh2
+Jan 28 12:05:14 server sshd[1048]: Failed password for root from 192.168.1.50 port 35512 ssh2
+Jan 28 12:10:10 server sshd[1049]: Failed password for root from 45.12.33.101 port 12211 ssh2
+Jan 28 12:15:00 server sshd[1050]: Failed password for root from 192.168.1.50 port 35610 ssh2
+Jan 28 12:20:10 server sshd[1051]: Accepted password for user_jane from 10.0.0.15 port 52115 ssh2
+Jan 28 12:25:12 server sshd[1052]: Failed password for root from 45.12.33.101 port 12311 ssh2
+Jan 28 12:30:00 server sshd[1053]: Failed password for root from 192.168.1.50 port 35710 ssh2
+Jan 28 12:35:10 server sshd[1054]: Failed password for root from 45.12.33.101 port 12411 ssh2
+Jan 28 12:40:01 server CRON[1055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 12:45:10 server sshd[1056]: Failed password for root from 192.168.1.50 port 35810 ssh2
+Jan 28 12:50:22 server sshd[1057]: Accepted password for backup_user from 10.0.0.100 port 22 ssh2
+Jan 28 13:00:01 server CRON[1058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 13:05:12 server sshd[1059]: Failed password for root from 45.12.33.101 port 12511 ssh2
+Jan 28 13:10:10 server sshd[1060]: Failed password for root from 192.168.1.50 port 35910 ssh2
+Jan 28 13:15:00 server sshd[1061]: Failed password for root from 45.12.33.101 port 12611 ssh2
+Jan 28 13:20:10 server sshd[1062]: Accepted password for user_jane from 10.0.0.15 port 52120 ssh2
+Jan 28 13:25:12 server sshd[1063]: Failed password for root from 192.168.1.50 port 36010 ssh2
+Jan 28 13:30:00 server sshd[1064]: Failed password for root from 45.12.33.101 port 12711 ssh2
+Jan 28 13:35:10 server sshd[1065]: Failed password for root from 192.168.1.50 port 36110 ssh2
+Jan 28 13:40:01 server CRON[1066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 13:45:10 server sshd[1067]: Failed password for root from 45.12.33.101 port 12811 ssh2
+Jan 28 13:50:22 server sshd[1068]: Accepted password for user_bob from 10.0.0.22 port 49130 ssh2
