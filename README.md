@@ -34,7 +34,7 @@ LogHound follows a simple but robust pipeline to ensure accuracy and performance
 ### Installation
 Clone the repository and ensure you have Python 3.6+ installed.
 ```bash
-git clone https://github.com/youruser/LogHound.git
+git clone https://github.com/serhotonin/LogHound.git
 cd LogHound
 ```
 
